@@ -77,15 +77,15 @@ const Product = ({ pizza }) => {
         <h3 className={styles.choose}>Выбери размер</h3>
         <div className={styles.sizes}>
           <div className={styles.size} onClick={() => handleSize(0)}>
-            <img src="https://cdn-icons-png.flaticon.com/512/207/207391.png" layout="fill" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/207/207391.png" width="30" height="30" />
             <span className={styles.number}>Маленькая</span>
           </div>
           <div className={styles.size} onClick={() => handleSize(1)}>
-            <img src="https://cdn-icons-png.flaticon.com/512/207/207391.png" layout="fill" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/207/207391.png" width="40" height="40" />
             <span className={styles.number}>Средняя</span>
           </div>
           <div className={styles.size} onClick={() => handleSize(2)}>
-            <img src="https://cdn-icons-png.flaticon.com/512/207/207391.png" layout="fill" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/207/207391.png" width="50" height="50"/>
             <span className={styles.number}>Гигантская</span>
           </div>
         </div>
